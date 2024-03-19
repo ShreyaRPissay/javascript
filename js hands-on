@@ -1,0 +1,100 @@
+1)let carName = "Volvo";
+2)let x = 50
+3)let x = 5;
+  let y = 10;
+  document.getElementById("demo").innerHTML = x + y;
+4)let x = 5;
+  let y = 10;
+  let z = x + y;
+  alert(z);
+5)let firstName = "John",lastName = "Doe",age = 35;
+6)alert(10 * 5);
+7)alert(10 / 2);
+8)alert(15 % 9);
+9)x = 10;
+  y = 5;
+  x += y;
+10)x = 10;
+   y = 5;
+   x *= y;
+11)let length = 16;          // Number
+   let lastName = "Johnson"; // String
+   const x = {
+     firstName: "John",
+     lastName: "Doe"
+   };                        // Object
+12)
+function myFunction() {
+  alert("Hello World!");
+}
+myFunction();
+13)
+function myFunction(){
+  alert("Hello World!");
+}
+14)
+function myFunction() {
+  return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+15)
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello";
+}
+16)
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+alert(person.firstName);
+17)const person = {
+  firstName: "John",
+  lastName: "Doe",
+  country: "Norway"
+};
+18)
+const person = {
+  name:"John", age:50
+};
+alert(person.name + " is " + person.age);
+19)<button onclick="alert('Hello')">Click me.</button>
+20)<button onclick="myFunction()">Click me.</button>
+21) <div onmouseover="this.style.backgroundColor='red'">myDIV.</div>
+22)
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+23)
+let txt = "We are \"Vikings\"";
+alert(txt);
+24)
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1+str2);
+25)
+let txt = "Hello World!";
+txt = txt.toUpperCase();
+26)
+let txt = "I can eat bananas all day";
+let x = txt.slice(10, 17);
+27)
+let txt = "Hello World";
+txt = txt.replace("Hello", "Welcome");
+28)
+let txt = "Hello World";
+txt = txt.toUpperCase();
+29)
+let txt = "Hello World";
+txt = txt.toLowerCase();
+30) const cars = ["Saab", "Volvo", "BMW"];
+    let x = cars[1];
+31) const cars = ["Volvo", "Jeep", "Mercedes"];
+    cars[0] = "Ford";
+32) const cars = ["Volvo", "Jeep", "Mercedes"];
+    alert(cars.length);
+33)const fruits = ["Banana", "Orange", "Apple"];
+   fruits.pop();
+34)const fruits = ["Banana", "Orange", "Apple"];
+   fruits.push("Kiwi");
+35)const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+   fruits.splice(1, 2);
