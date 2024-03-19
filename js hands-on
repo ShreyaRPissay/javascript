@@ -98,3 +98,139 @@ txt = txt.toLowerCase();
    fruits.push("Kiwi");
 35)const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
    fruits.splice(1, 2);
+36)const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+   fruits.sort();
+37)const d = new Date();
+   alert(d);
+38)const d = new Date();
+   year = d.getFullYear();
+39)const d = new Date();
+   month = d.getMonth();
+40)const d = new Date();
+   d.setFullYear(2020);
+41)let r = Math.random();
+42)let x = Math.max(10, 20);
+43)let x = Math.round(5.3);
+44)let x = Math.sqrt(9);
+45)x = 10;
+   y = 5;
+   alert(x >y);
+46)x = 10;
+   y = 10;
+   alert(x == y);
+47)x = 10;
+   y = 5;
+   alert(x != y);
+48)var age = n;
+   var voteable = (age < 18) ? "Too young" :"Old enough";
+   alert(voteable);
+49)if (x > y){
+    alert("Hello World");
+   }
+50)
+if (x > y) {
+  alert("Hello World");
+} else{
+  alert("Goodbye");
+}
+51)
+switch(fruits) {
+  case "Banana":
+    alert("Hello")
+    break;
+  case "Apple":
+    alert("Welcome")
+    break;    
+}
+52)switch(fruits) {
+   case "Banana":
+     alert("Hello")
+     break;
+   case "Apple":
+     alert("Welcome")
+     break;
+   default:
+     alert("Neither");
+   }
+53)
+let i;
+for(i = 0;i < 10; i++) {
+  console.log(i);
+}
+54)
+const fruits = ["Apple", "Banana", "Orange"];
+for (x of fruits) {
+  console.log(x);
+}
+55)
+let i = 0;
+while (i <10) {
+  console.log(i);
+  i++
+}
+56)
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i=i+2;
+}
+57)
+for (i = 0; i < 10; i++) {
+  console.log(i);
+  if (i == 5) {
+    break;
+  }
+}
+58)
+for (i = 0; i < 10; i++) {
+  if (i == 5) {
+    continue;
+  }
+  console.log(i);
+}
+59)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = "Hello";
+</script>
+60)
+<p id="demo"></p>
+<script>
+document.getElementsByTagName("p")[0].innerHTML = "Hello";
+</script>
+61)
+<p class="test"></p>
+<p class="test"></p>
+<script>
+document.getElementsByClassName("test")[0].innerHTML = "Hello";
+</script>
+62)
+<img id="image" src="smiley.gif">
+<script>
+document.getElementById("image").src = "pic_mountain.jpg";
+</script>
+63)
+<input type="text" id="myText" value="Hello">
+<script>
+document.getElementById("myText").value = "Have a nice day!";
+</script>
+64)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.color = "red";
+</script>
+65)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.fontSize = "40px";
+</script>
+66)
+<p id="demo"></p>
+<script>
+document.getElementById("demo").style.display = "none";
+</script>
+67)
+<button id="demo">Click me1</button>
+<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+</script>
